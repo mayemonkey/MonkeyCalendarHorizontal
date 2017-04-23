@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mch="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.maye.monkeycalendarhorizontal.MonkeyCalendarHorizontal
+        android:id="@+id/mch_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mch:backgroundColor="#F9F9F9"
+        mch:dateColor="#111111"
+        mch:pointColor="#52D3C4"
+        mch:selectBackgroundColor="#52D3C4"
+        mch:selectDateColor="#FFFFFF"
+        mch:selectPointColor="#FFFFFF"
+        mch:selectTipColor="#FFFFFF"
+        mch:tipColor="#BDBDBD"
+        mch:todayColor="#D73C10" />
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Hello World!" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:onClick="toToday"
+        android:text="回到当天"/>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  自定义属性  -->
+    <declare-styleable name="MonkeyCalendarHorizontal">
+        <attr name="todayColor" format="color" />
+        <attr name="tipColor" format="color" />
+        <attr name="dateColor" format="color" />
+        <attr name="pointColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="selectTipColor" format="color" />
+        <attr name="selectDateColor" format="color" />
+        <attr name="selectPointColor" format="color" />
+        <attr name="selectBackgroundColor" format="color" />
+    </declare-styleable>
+
+
+</resources>
